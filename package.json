@@ -1,0 +1,12 @@
+{
+  "name": "minecraft-ping",
+  "main": "mcping.js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node mcping.js"
+  },
+  "author": "mekb",
+  "dependencies": {
+    "minecraft-protocol": "^1.36.1"
+  }
+}
