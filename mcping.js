@@ -55,6 +55,7 @@ const colorO = (e) => {
 		}
 		s_ += "m";
 		if (e[i].text) { s = color(e[i].text, o); s_ += s.s; o = s.o; }
+		if (e[i].extra) s_ += colorO(e[i].extra);
 	}
 	return s_;
 }
